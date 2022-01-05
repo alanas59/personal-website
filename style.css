@@ -73,3 +73,28 @@ body{
     color:#FFAD5A;
 }
 
+/* develop */
+.develop-inner{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+.develop-inner-left{
+    width:40%;
+ 
+}
+.develop-inner-left img{
+    width:90%;
+}
+.develop-inner-right{
+    width: 60%;
+}
+
+.develop-inner-right h1{
+    font-size: 40px;
+}
+
+.develop-inner-right p{
+    margin: 10px 0px 25px;
+}
