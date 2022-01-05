@@ -41,3 +41,35 @@ body{
 #focus h1 span{
     color:#5B9D25;
 }
+
+/* mission */
+
+.my-mission-inner{
+    width:80%;
+    margin:0 auto;
+}
+
+.my-mission-all{
+    display: flex;
+}
+
+.mission img{
+   width: 50%;
+}
+.mission{
+    width: 30%;
+    margin-left: 30px;
+    background: #FFEEEE;
+    border-radius: 15px;
+    padding: 20px 16px;
+}
+
+.my-mission-inner h1{
+    text-align: center;
+    font-size: 45px;
+    color: #13103A;
+}
+.my-mission-inner h1 span{
+    color:#FFAD5A;
+}
+
