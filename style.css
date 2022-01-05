@@ -98,3 +98,16 @@ body{
 .develop-inner-right p{
     margin: 10px 0px 25px;
 }
+
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 30px 0px;
+    color:white;
+    margin-top:40px;
+   
+}
+
+footer h1 span{
+   color:#FF5959;
+}
