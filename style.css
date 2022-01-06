@@ -30,19 +30,19 @@ body{
     border-radius: 4px;
     display: inline-block;
 }
-#focus-border-left{
+/* #focus-border-left{
     border-left:4px #001AFF solid;
-}
+} */
 #focus{
     margin-top:85px;
 }
 #focus h1{
-    /* border-left: 4px #FF5959 solid; */
+    border-left: 4px #F92C8B solid;
     border-radius: 2px;
     font-size:55px;
     padding-left: 8px;
     /* color: #4E74C9; */
-     color:#F92C8B;
+     /* color:#F92C8B; */
      
 }
 #focus h1 span{
