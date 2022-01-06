@@ -2,6 +2,9 @@ body{
     margin:0;
     font-family: 'Poppins', sans-serif;
 }
+.top-banner{
+    margin-bottom: 100px;
+}
 .top-banner-inner{
     display:flex;
     width: 80%;
@@ -24,6 +27,7 @@ body{
     text-decoration: none;
     padding: 12px 40px;
     border-radius: 4px;
+    display: inline-block;
 }
 #focus{
     margin-top:85px;
@@ -54,14 +58,14 @@ body{
 }
 
 .mission img{
-   width: 50%;
+   width: 60%;
 }
 .mission{
     width: 30%;
     margin-left: 30px;
     background: #FFEEEE;
-    border-radius: 15px;
-    padding: 20px 16px;
+    border-radius: 20px;
+    padding: 20px 18px;
 }
 
 .my-mission-inner h1{
@@ -89,6 +93,7 @@ body{
 }
 .develop-inner-right{
     width: 60%;
+    padding-right:20px;
 }
 
 .develop-inner-right h1{
