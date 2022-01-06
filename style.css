@@ -108,6 +108,28 @@ footer {
    
 }
 
+.app-inner{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f7f8fb;
+    padding: 70px 0px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.app-inner h1{
+    font-size: 45px;
+    margin :0;
+    color:#0B0D17;
+}
+
+.app-inner p{
+    margin-bottom: 30px;
+}
+.app-inner h1 span{
+    color:#FFAD5A;
+}
 footer h1 span{
    color:#FF5959;
 }
