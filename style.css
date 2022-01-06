@@ -2,6 +2,7 @@ body{
     margin:0;
     font-family: 'Poppins', sans-serif;
 }
+/* top-banner-section */
 .top-banner{
     margin-bottom: 100px;
 }
@@ -29,12 +30,11 @@ body{
     border-radius: 4px;
     display: inline-block;
 }
+#focus-border-left{
+    border-left: 4px #001AFF solid;
+}
 #focus{
     margin-top:85px;
-}
-
-hr{
-
 }
 #focus h1{
     /* border-left: 4px #FF5959 solid; */
@@ -42,18 +42,14 @@ hr{
     font-size: 55px;
     padding-left: 8px;
     /* color: #4E74C9; */
-
-    color:#F92C8B;
-    
+     color:#F92C8B;
 }
-
 #focus h1 span{
     /* color:#5B9D25; */
     color:#4F6592;
 }
 
-/* mission */
-
+/* mission-section */
 .my-mission-inner{
     width:80%;
     margin:0 auto;
@@ -82,17 +78,18 @@ hr{
 .goals-bg{
     background-color:#C7F2B2;
 }
-
 .my-mission-inner h1{
     text-align: center;
     font-size: 45px;
-    color: #13103A;
+    /* color: #13103A; */
+    color:#F87B3D;
 }
 .my-mission-inner h1 span{
-    color:#FFAD5A;
+    /* color:#FFAD5A; */
+    color:#4F6592;
 }
 
-/* develop */
+/* develop-section */
 .develop-inner{
     width: 80%;
     margin:0 auto;
@@ -118,16 +115,7 @@ hr{
 .develop-inner-right p{
     margin: 10px 0px 25px;
 }
-
-footer {
-    text-align: center;
-    background-color: #0B0D17;
-    padding: 30px 0px;
-    color:white;
-    margin-top:40px;
-   
-}
-
+  /* application-section */
 .app-inner{
     width: 80%;
     margin: 0 auto;
@@ -149,7 +137,26 @@ footer {
 }
 .app-inner h1 span{
     color:#FFAD5A;
+   
+}
+
+
+/* footer-section */
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 30px 0px;
+    color:white;
+    margin-top:40px;
+   
+}
+footer h1{
+    font-family: 'Lobster Two', cursive;
+    color: #4F6592;
+    font-size: 35px;
 }
 footer h1 span{
-   color:#FF5959;
+   /* color:#FF5959; */
+   color: #78CC4D;
+   
 }
